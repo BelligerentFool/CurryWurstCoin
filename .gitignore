@@ -1,0 +1,34 @@
+src/*.exe
+src/currywurstcoin
+src/currywurstcoind
+src/test_currywurstcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.currywurstcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+currywurstcoin-qt
+CurryWurstCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+currywurstcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
